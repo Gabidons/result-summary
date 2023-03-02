@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;700;800&display=swap');
+
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    font-family: 'Hanken Grotesk', sans-serif;
+    overflow: hidden;
+}
+
+.parent-container {
+    display: flex;
+}
+
+.father-container,  .mother-container {
+    width: 230px;
+    height: 300px;
+}
+
+.father-container {
+    background-image:linear-gradient(#6743ff, #312cea);
+    border-radius: 20px;
+    text-align: center;
+    color: white;
+    padding: 20px 20px 75px 20px;
+    z-index: 1;
+}
+
+.box {
+    background-color: #312cea;
+    border-radius: 100%;
+    width: 120px;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+
+.box h1{
+    margin: 0;
+    font-size: 50px;
+}
+
+.last-child, h4, small{
+    color: hsl(241, 100%, 89%);
+}
+
+.mother-container {
+    background-color: white;
+    padding: 25px 25px 70px 45px;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, .3);
+    margin-left: -20px;
+    border-radius: 20px;
+}
+
+.mother-container h3{
+    margin-top: 5px;
+}
+
+.Reaction, .memory, .verbal, .visual {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.Reaction{
+    background-color: #fff6f5;
+}
+
+.Reaction span {
+    color: hsl(0, 100%, 67%);
+}
+
+.memory {
+    background-color: #fffbf2;
+}
+
+.memory span {
+    color: hsl(39, 100%, 56%);
+}
+
+.verbal {
+    background-color: #f2fbfa;
+}
+
+.verbal span {
+    color: hsl(166, 100%, 37%);
+}
+
+.visual {
+    background-color: #f3f3fd;
+}
+
+.visual span {
+    color: hsl(234, 85%, 45%);
+}
+
+button{
+    background-color: #303b59;
+    padding: 10px 70px;
+    border: none;
+    border-radius: 100px;
+    color: white;
+    margin-top: 15px;
+}
+
+.img-cont, .img-cont-1, .img-cont-2, .img-cont-3{
+    display: flex;
+    align-items: center;
+}
+
+.Reaction span, .memory span, .verbal span, .visual span{
+    margin-left: 10px;
+}
+
+.memory p span, .Reaction p span, .verbal p span, .visual p span{
+    color: hsl(224, 30%, 27%);
+    font-weight: bold;
+}
+
+.mother-container p {
+    color: hsl(241, 100%, 89%);
+}
